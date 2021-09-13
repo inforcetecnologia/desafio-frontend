@@ -1,0 +1,523 @@
+.maisacessados{
+	text-transform: uppercase;
+	color: #3381f3;
+	border: 2px solid #3381f3;
+	border-radius: 95px;
+	text-decoration: none;
+	padding: 10px 6%;
+	font-weight: bold;
+	transition: 0.5s;
+	margin-top: 2cm; color: white;  border:1px solid ;
+	margin: 42px;
+	
+}
+.container {
+	max-width: 1920px;
+	width: 100%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* menu mobile */
+.nav-container .btn-menumobile {
+	display: none;
+}
+
+/* header */
+header {
+	position: relative;
+	top: 0;
+	height: auto;
+	width: 100%;
+}
+
+/* navbar */
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100px;
+	width: 100%;
+	z-index: 1;
+	background-color: #FFF;
+	border-bottom: 1px solid #CCC;
+}
+
+nav:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.nav-container {
+	max-width: 1200px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo {
+	margin-top: 25px;
+}
+
+.nav-container ul {
+	float: right;
+	height: 100px;
+	line-height: 100px;
+	margin: 0;
+}
+
+.nav-container ul li {
+	list-style: none;
+	float: left;
+	margin: 0 15px;
+}
+
+.nav-container li a {
+	text-decoration: none;
+	color: #666;
+
+}
+
+.nav-container li a:hover {
+	color: #3381f3;
+}
+.menu__link {
+    color: #fffefe;
+    padding: .5rem 1rem;
+
+}
+.menu__link:hover, .menu__link.ativo {
+    border-bottom: 2px solid blue;
+}
+/* banner */
+#main-banner {
+	background: url() no-repeat;
+	background-size: cover;
+	background-position: 0 55%;
+	position: relative;
+	margin-top: 100px;
+}
+.imabanner{
+	width:1680px; 
+	height:700px ;
+}
+
+#search-form {
+	position: relative;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15em;
+	padding-bottom: 15em;
+	text-align: center;
+}
+
+#search-form h1 {
+	font-size: 40px;
+	color: white;
+}
+
+#search-form p {
+	margin-top: 30px;
+	margin-bottom: 60px;
+	font-size: 18px;
+	font-weight: 300;
+	color: white;
+}
+
+
+#search-form input, #search-form select, #anuncio input, #anuncio select, #anuncio textarea {
+	background-color: #FFF;
+	border-radius: 5px;
+	border-color: transparent;
+	padding: 10px 20px;
+	font-size: 18px;
+	margin: 0 10px;
+}
+
+#search-form input[type=submit], #anuncio input[type=submit] {
+	background-color: #3381f3;
+	text-transform: uppercase;
+	color: #FFF;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+#search-form input[type=submit]:hover, #anuncio input[type=submit]:hover {
+	background-color: #2B79EB;
+}
+
+/* seção vitrine de imoveis */
+#vitrine-container {
+	text-align: center;
+	padding: 100px 0;
+}
+
+.wrapper {
+	max-width: 1200px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#vitrine-container h1 {
+	font-size: 36px;
+	margin-bottom: 50px;
+}
+
+#vitrine-container ul {
+	padding: 0;
+	border: 1px solid #CCC;
+	border-radius: 10px;
+}
+
+#vitrine-container ul li {
+	list-style: none;
+	text-align: left;
+	border-bottom: solid 1px #CCC;
+	height: 80px;
+	position: relative;
+}
+
+#vitrine-container ul li:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+#vitrine-container ul li:last-child {
+	border: none;
+}
+/* ................................................. */
+.clickarea {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* see more div */
+.jobs-container {
+	margin-top: 50px;
+}
+
+.btn-imob {
+	text-transform: uppercase;
+	background-color: rgb(223, 14, 14);
+	color: #3381f3;
+	border: 2px solid #3381f3;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-weight: bold;
+	transition: 0.5s;
+	margin-top: 2cm; color: blue ; border:1px solid ;
+}
+
+.btn-jobs:hover {
+	background-color: #3381f3;
+	color: rgb(226, 8, 8);
+}
+.maisacessados:hover {
+	background-color: #3381f3;
+	
+}
+
+/* anuncio container */
+#anuncio-container {
+	background: url('../image/img06.png') no-repeat;
+	background-size: cover;
+	background-position: 0 25%;
+	padding: 15em 0;
+}
+
+#anuncio-container h2, #anuncio-container p {
+	width: 600px;
+	color: #FFF;
+}
+
+#anuncio-container h2 {
+	font-size: 36px;
+	margin-bottom: 50px;
+}
+
+#anuncio-container p {
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+.light-btn {
+	background-color:black;
+	border: 2px solid black;
+	color: #666;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: 0.5s;
+}
+
+.light-btn:hover {
+	background-color: transparent;
+	color:white;
+}
+
+/* jobfinder status */
+#status-container {
+	text-align: center;
+	padding: 5em 0;
+}
+
+.title-center {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+.p-center {
+	width: 80%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 18px;
+}
+
+.status-box {
+	display: inline-block;
+	text-align: center;
+	width: 24.5%;
+	margin-top: 80px;
+	border-left: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+	height: 100px;
+}
+
+.status-box:nth-child(2) {
+	border: none;
+}
+
+.status-box:nth-child(3) {
+	border-right: none;
+}
+
+.status-qtd {
+	font-size: 36px;
+}
+
+.status-text {
+	font-size: 20px;
+}
+
+/* depoimentos container */
+#depoimentos-container {
+	background: url('../image/img03.png') no-repeat;
+	background-size: cover;
+	padding: 10em 0;
+}
+
+#depoimentos-container h2, #depoimentos-container p {
+	color: #FFF;
+	text-align: center;
+}
+
+#depoimentos-container h2 {
+	font-size: 36px;
+	margin-bottom: 50px;
+}
+
+#depoimentos-container p {
+	margin-bottom: 50px;
+}
+
+.depoimentos-box {
+	display: inline-block;
+	width: 24.5%;
+	text-align: center;
+}
+
+#depoimentos-container .depoimentos-box .depoimentos-msg {
+	background-color: #FFF;
+	color: #666;
+	border-radius: 10px;
+	padding: 20px;
+	width: 50%;
+	position: relative;
+	margin: 35px auto;
+	font-style: italic;
+}
+
+.depoimentos-msg:after {
+	content: "";
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #FFF;
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.depoimentos-box img {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #CCC;
+	border-radius: 50%;
+}
+
+.depoimentos-name {
+	font-weight: bold;
+}
+
+/* noticias container */
+#noticias-container {
+	text-align: center;
+	padding: 5em 0;
+}
+
+#noticias-container .p-center {
+	margin-bottom: 60px;
+}
+
+.artigo-box {
+	display: inline-block;
+	width:240px;
+    height:167px;
+	padding: 0 1%;
+	text-align: left;
+   
+}
+
+.artigo-box img {
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 10px;
+    width:240px;
+    height:167px;
+}
+
+.artigo-box h4 {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+.artigo-box h4 a {
+	text-decoration: none;
+	color: #666;
+}
+
+.artigo-date {
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+.artigo-resume {
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+
+.artigo-btn {
+	background-color: #3381f3;
+	border-color: #3381f3;
+	color: #FFF;
+}
+
+.artigo-btn:hover {
+	background-color: #FFF;
+	color: #3381f3;
+}
+
+/* footer */
+footer {
+	background-color: black;
+	padding: 5em 0;
+	padding-bottom: 40px;
+	border-top: 5px solid #3381f3;
+}
+
+footer h2, footer p, footer a, footer span {
+	color: #D1D1D1;
+}
+
+footer h2 {
+	font-weight: 400;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer ul {
+	padding: 0;
+}
+
+footer li {
+	list-style: none;
+}
+
+.footer-box {
+	width: 31%;
+	padding: 1%;
+	float: left;
+}
+
+footer .wrapper:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.footer-list li {
+	margin-bottom: 15px;
+}
+
+.footer-list a {
+	transition: 0.5s;
+}
+
+.footer-list a:hover {
+	color: #FFF;
+}
+
+.footer-list li:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.artigos-footer {
+	width: 80%;
+}
+
+.footer-list.footer-artigo-list span {
+	display: block;
+	float: none;
+}
+
+.fab {
+	font-size: 30px;
+	margin-right: 10px;
+	float: left;
+}
+
+.footer-list li span {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+
+.footer-bottom {
+	border-top: 1px solid #B2B2B2;
+}
+
+.footer-bottom p {
+	font-weight: 600;
+	margin-top: 40px;
+}
+

@@ -1,0 +1,98 @@
+
+ img{
+
+    border-radius: 5px;
+}
+    
+    
+ 
+.carousel-conteiner{
+    width: 60%;
+    margin:auto;
+    overflow: hidden;
+    padding : 0 !important;
+}
+ .carousel {
+    width: 60%;
+    margin:auto;
+    overflow: hidden;
+  }
+  
+  .carousel .carousel__item,
+  .carousel .carousel__item--hidden {
+    display: none;
+  }
+  
+  .carousel .carousel__item img {
+    width: 70%;
+    max-width: 600px;
+    height: auto;
+ border: 1px solid black
+  }
+  
+  .carousel .carousel__item--visible {
+    display: block;
+    animation: fadeVisibility 0.5s;
+  }
+  
+  .carousel .carousel__actions {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #carousel__button--prev{
+    position: absolute;
+    top: 40%;
+    z-index: 10;
+    right: 31%;
+    font-size:  30px;
+    color: black;
+    opacity:0.5 ;
+    cursor: pointer;
+  }
+  
+  #carousel__button--next{
+    position: absolute;
+    top: 40%;
+    z-index: 10;
+    left: 31%;
+    font-size:  30px;
+    color: rgb(0, 0, 0);
+    opacity:0.5 ;
+    cursor: pointer;
+  }
+  
+  @keyframes fadeVisibility {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: opacity linear;
+    }
+  }
+  .imabanner {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 1920 ; height: 700px !important;
+  }
+  #card {
+    box-shadow: 8px 8px 8px 8px black;
+    transition: 0.3s;
+    width: 100%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 black;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  

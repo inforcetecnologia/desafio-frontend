@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>imobiliario inforce</title>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/caroussel.css" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/responsividade.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+	
+			<nav>
+				<div class="nav-container">
+					<a href="index.html">
+						<img id="logo" src="./assets/image/logo_topo.webp" alt="logo tipo inforce">
+					</a>
+					<i class="fas fa-bars btn-menumobile"></i>
+					<ul>
+						<li><a class="menu__link" href="">
+                            <i class="fas fa-home"></i>   
+                            Home
+                            </a></li>
+						<li><a class="menu__link" href="">
+                            <i class="fas fa-archway"></i>
+                             Imoveis
+                            </a></li>
+						<li><a class="menu__link" href="">  
+                            <i class="fas fa-server"></i>
+                         Servicos
+                         </a></li>
+                         <li> <a class="menu__link" href="">
+                            <i class="fas fa-mobile"></i>
+                            fale conosco
+                        </a></li>
+					</ul>
+				</div>
+			</nav>
+			
+			<div  id="main-banner" class="gif" >
+                <img src="" class="imabanner">
+                <div id="search-form">
+                <h1> Uma forma simplificada de buscar por imoveis</h1>
+                <p>Busque de forma gratuita e inovadora por um imovel pra alugar ou comprar</p>			
+					<form>
+						<select name="interece">
+                            <option value="">Interesse</option>
+                            <option value="">Alugar</option>
+                            <option value="">Comprar</option>
+                        </select>
+						<select name="regiao">
+							<option value="">Estados</option>
+                            <option value="">Rio de Janeiro-RJ</option>
+                            <option value="">São Paulo-SP</option>
+                            <option value="">Minas Gerais-MG</option>
+                            <option value="">Espirito-santo-ES</option>
+						</select>
+						<select name="category">
+							<option value="">Casa</option>
+                            <option value="">Apartamento</option>
+                            <option value="">Flat</option>
+                            <option value="">Bangalô </option>
+                            <option value="">Kitnet</option>
+                            <option value="">Edícula</option>
+                            <option value="">Sobrado</option>
+						</select>
+						<input type="submit" value="Pesquisar">
+					</form>
+				</div>
+			</div>
+		</header>
+         <main id="vitrine-container" class="wrapper">
+            <div class="carousel-conteiner">
+                <h1>Vitrine de Imoveis</h1>
+              <div class="carousel">
+                <i class="fas fa-arrow-left" id="carousel__button--next"></i>
+                <i class="fas fa-arrow-right" id="carousel__button--prev"></i>
+                <div class="carousel__item carousel__item--visible" id="card">
+                  <img src="https://labs.inforcedata.com.br/desafio-frontend/vitrine/imovel1.jpg"/>
+                </div>
+                <div class="carousel__item" > 
+                 <img src="https://labs.inforcedata.com.br/desafio-frontend/vitrine/imovel2.jpg"/>
+                 <div class="container">
+                    <h4><b>Apartamento</b></h4> 
+                    <p> bairro: Urca <br>
+                        cidade: Rio de Janeiro <br>
+                        UF: RJ<br>
+                        tipo: Apartamento<br>
+                        metragem: 60 <br>
+                        quartos: 2<br>
+                        vagas: 1<br>
+                        banheiros: 1</p> 
+                  </div>
+                </div>
+                <div class="carousel__item">
+                    <img src="https://labs.inforcedata.com.br/desafio-frontend/vitrine/imovel3.jpg"/>
+                    <div class="container">
+                        <h4><b>Apartamento</b></h4> 
+                        <p> bairro: Urca <br>
+                            cidade: Rio de Janeiro <br>
+                            UF: RJ<br>
+                            tipo: Apartamento<br>
+                            metragem: 60 <br>
+                            quartos: 2<br>
+                            vagas: 1<br>
+                            banheiros: 1</p> 
+                      </div>
+                  </div>
+                  <div class="carousel__item">
+                    <img src="https://labs.inforcedata.com.br/desafio-frontend/vitrine/imovel4.jpg"/>
+                    <div class="container">
+                        <h4><b>Apartamento</b></h4> 
+                        <p> bairro: Urca <br>
+                            cidade: Rio de Janeiro <br>
+                            UF: RJ<br>
+                            tipo: Apartamento<br>
+                            metragem: 60 <br>
+                            quartos: 2<br>
+                            vagas: 1<br>
+                            banheiros: 1</p> 
+                      </div>
+                  </div>
+                  <div class="carousel__item">
+                    <img src="https://labs.inforcedata.com.br/desafio-frontend/vitrine/imovel5.jpg"/>
+                    <div class="container">
+                        <h4><b>Apartamento</b></h4> 
+                        <p> bairro: Urca <br>
+                            cidade: Rio de Janeiro <br>
+                            UF: RJ<br>
+                            tipo: Apartamento<br>
+                            metragem: 60 <br>
+                            quartos: 2<br>
+                            vagas: 1<br>
+                            banheiros: 1</p> 
+                      </div>
+                  </div>
+                  <div class="carousel__item">
+                    <img src="https://labs.inforcedata.com.br/desafio-frontend/vitrine/imovel6.jpg"/>
+                    <div class="container">
+                        <h4><b>Apartamento</b></h4> 
+                        <p> bairro: Urca <br>
+                            cidade: Rio de Janeiro <br>
+                            UF: RJ<br>
+                            tipo: Apartamento<br>
+                            metragem: 60 <br>
+                            quartos: 2<br>
+                            vagas: 1<br>
+                            banheiros: 1</p> 
+                      </div>
+                  </div>
+            </div>
+        </div>
+        <br>
+        <div classe="btn-imob" >
+            <a href="#" class="light-btn">ver mais</a>
+     </div>
+    </main>
+		 <section id="anuncio-container">
+			<div id="anuncio-inner" class="wrapper">
+				<h2>Anuncie aqui seu imovel</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<a href="#" class="light-btn">Anuncie</a>
+			</div>
+        </section>
+        <section id="noticias-container" class="wrapper">
+			<h2 class="title-center">ultimas notícias</h2>
+			<p class="p-center">O crescimento acelerado do mercado imobiliário de luxo em Minas Gerais.
+                Conheça as possibilidades de morar ou investir em Belo Horizonte.</p>
+			<div class="artigo-box">
+				<img src="https://labs.inforcedata.com.br/desafio-frontend/noticias/noticia1.jpg">
+				<h4><a href="https://g1.globo.com/economia/noticia/2020/11/24/financiamento-imobiliario-cresce-84percent-em-outubro-e-renova-recorde-diz-abecip.ghtml">Preço dos imóveis residenciais teve queda no mês de setembro</a></h4>
+				<p class="artigo-date">10 de outrubro de 2021 | 20 comentários</p>
+				<p class="artigo-resume">"No acumulado do ano e em 12 meses, os valores seguem com avanço inferior à inflação  chegou a ... ------------------------------------------------------------------------------------------------------------------------------------------</p>
+				<a href="https://g1.globo.com/economia/noticia/2020/11/24/financiamento-imobiliario-cresce-84percent-em-outubro-e-renova-recorde-diz-abecip.ghtml" class="artigo-btn light-btn">ARTIGO COMPLETO</a>
+			</div>
+			<div class="artigo-box">
+				<img src="https://labs.inforcedata.com.br/desafio-frontend/noticias/noticia2.jpg">
+				<h4><a href="https://www.imovelweb.com.br/noticias/socorretor/carreira/investir-em-imoveis-para-alugar-e-um-bom-negocio/"></a>20% dos novos financiamentos de imóveis da Caixa já são pelo IPCA</h4>
+				<p class="artigo-date">10 de outrubro de 2021 | 10 comentários</p>
+				<p class="artigo-resume">"Lançada há um mês, modalidade é opcional e oferece juros de até 4,95% ao ano acrescidos da inflação no período.",</p>
+				<a href="https://www.imovelweb.com.br/noticias/socorretor/carreira/investir-em-imoveis-para-alugar-e-um-bom-negocio/" class="artigo-btn light-btn">ARTIGO COMPLETO</a>
+			</div>
+			<div class="artigo-box">
+				<img src="https://labs.inforcedata.com.br/desafio-frontend/noticias/noticia3.jpg">
+				<h4><a href="http://www.jornalimobiliario.com/ler.asp?codigo=1162">" Sector imobiliario. compra e venda de imóveis têm alta de quase 6%"</a></h4>
+				<p class="artigo-date">10 de outrubro de 2021 | 10 comentários</p>
+				<p class="artigo-resume">"Entre julho do ano passado e junho de 2021
+                   , foram comprados e vendidos cerca de 613 mil imóveis no estado."----------</p>
+				<a href="" class="artigo-btn light-btn">ARTIGO COMPLETO</a>
+			</div>
+            <div class="artigo-box">
+				<img src="https://labs.inforcedata.com.br/desafio-frontend/noticias/noticia4.jpg">
+				<h4><a href="http://www.jornalimobiliario.com/ler.asp?codigo=1162">"Risco de bolha imobiliária aumenta na zona do euro"</a></h4>
+				<p class="artigo-date">10 de outrubro de 2021 | 10 comentários</p>
+				<p class="artigo-resume">"ela primeira vez em quatro anos, Londres não foi classificada como uma cidade com imóveis perigosamente sobrevalorizado. --------------------------------------------------------------------------------------------</p>
+				<a href="" class="artigo-btn light-btn">ARTIGO COMPLETO</a>
+			</div>
+		</section>
+        <section id="depoimentos-container">
+			<div class="wrapper">		
+				<h2>Depoimentos</h2>
+				<p class="p-center">Alguns depoimesntos de clientes que adariram aos nossos serviços.</p>
+				<div class="depoimentos-box">
+					<p class="depoimentos-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<img src="./assets/image/avatar1.png">
+					<p class="depoimentos-name">Kituxi</p>
+				</div>
+				<div class="depoimentos-box">
+					<p class="depoimentos-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<img src="./assets/image/avatar2.png">
+					<p class="depoimentos-name">kieza</p>
+				</div>
+				<div class="depoimentos-box">
+					<p class="depoimentos-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<img src="./assets/image/avatar3.png">
+					<p class="depoimentos-name">Kiami</p>
+				</div>
+				<div class="depoimentos-box">
+					<p class="depoimentos-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<img src="./assets/image/avatar4.png">
+					<p class="depoimentos-name">Sara</p>
+				</div>
+			</div class="conteiner" style="align-items-center">
+			<h2> Mais acessados</h2>
+			<a href="#" class="maisacessados" >aprtamnetos na barra</a>
+			<a href="#" class="maisacessados" >casa de temporada</a>
+			<a href="#" class="maisacessados" >bangalô em maricá</a>
+			<div>
+			</section>
+			</div>
+        <section class="mapas">
+			<div class="conteiner">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.339445955877!2d-43.36392958577709!3d-22.937722684996036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd8530e594f37%3A0xcaf4bbd2f4c7aae4!2sClube%20dos%20Banc%C3%A1rios!5e0!3m2!1spt-PT!2sbr!4v1631323641151!5m2!1spt-PT!2sbr" width="100%" height="50%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+        </section>
+		<footer>
+			<div class="wrapper">
+				<div class="footer-box">
+					<div class="company-footer">
+						<img src="./assets/image/logo_footer.webp">
+						<h2>inforce</h2>
+						<p>Um conceito de tecnologia para o mercado imobiliario</p>
+					</div>
+				</div>
+				<div class="footer-box">
+					<div class="artigos-footer">
+						<h2>Artigos rescentes</h2>
+						<ul class="footer-list footer-artigo-list">
+							<li>
+								<a href="https://www.resimob.com.br/categoria-artigos/">Condomínio não tem poder de fiscalizar e multar ocupação de área pública</a>
+								<span class="artigo-date">10 de out de 2021
+
+                                </span>
+							</li>
+							<li>
+								<a href="https://www.resimob.com.br/categoria-artigos/">Como funciona o financiamento de construção?</a>
+								<span class="artigo-date">10 de outrubro de 2021</span>
+							</li>
+							<li>
+								<a href="https://www.resimob.com.br/categoria-artigos/">Maior transformação do mercado imobiliário foi a digitalização</a>
+								<span class="artigo-date">05 de outrubro de 2021</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+              <div class="footer-box">
+					<h2>Nos encontre nas redes sociais</h2>
+					<ul class="footer-list">
+						<li>
+							<a href="#">
+								<i class="fab fa-facebook-square"></i>
+								<span>Facebook</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fab fa-instagram"></i>
+								<span>Instagram</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fab fa-linkedin"></i>
+								<span>Linkedin</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="wrapper">
+					<p>Desafio inforce-2021</p>
+				</div>
+			</div>
+		</footer>
+	</div> 
+</body>
+<script src="./assets/js/menuMobile.js"></script>
+<script src="./assets/js/banner.js"></script>
+<script src="./assets/js/carousel.js"></script>
+</html> 
